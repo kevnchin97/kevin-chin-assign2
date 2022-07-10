@@ -12,4 +12,15 @@ menuButton.addEventListener("click", function () {
     menuContent.classList.toggle('menuToggle');
 })
 
+// pseudo code
+// similarly with the nav bar toggle. I will also create a dark mode option for the homepage. To do this. I will have to create a toggle that effectively makes the background black, with the text being white. 
+// step 1: creating variables. 
+const darkButton = document.querySelector(".darkMode");
+const darkBody = document.querySelector("body");
+// step 2: create a function that will toggle the effects 
+darkButton.addEventListener("click", function () {
+    darkBody.classList.toggle(`darkToggle`)
+})
+
+
 

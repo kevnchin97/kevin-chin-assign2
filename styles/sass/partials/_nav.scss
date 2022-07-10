@@ -111,6 +111,11 @@ label {
     font-size: 1.2rem;
 }
 
+.menuButton,
+.darkMode {
+    color: $primary
+}
+
 .mainMenu {
     height: 0;
     // hide content within the container.
@@ -119,4 +124,28 @@ label {
 
 .menuToggle {
     height: 250px;
+}
+
+.darkMode {
+    margin-left: 10px;
+}
+
+.darkToggle {
+    background: rgba(0, 0, 0, 0.83);
+
+    .smallCopy,
+    .categories h2 {
+        color: white;
+    }
+
+
+    .navBar {
+
+        h1,
+        h2,
+        .menuButton,
+        .darkMode {
+            color: white;
+        }
+    }
 }
