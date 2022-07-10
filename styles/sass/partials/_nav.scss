@@ -19,6 +19,12 @@
     padding: 10px 0;
 }
 
+.navBar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
 // Nav BAR
 // .navBar {
 //     position: sticky;
@@ -107,9 +113,10 @@ label {
 
 .mainMenu {
     height: 0;
+    // hide content within the container.
+    overflow: hidden;
 }
 
 .menuToggle {
-    height: 200px;
-    background: orange;
+    height: 250px;
 }

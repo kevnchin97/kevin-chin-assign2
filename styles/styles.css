@@ -369,6 +369,15 @@ section {
   padding: 10px 0;
 }
 
+.navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 label {
   cursor: pointer;
 }
@@ -445,11 +454,11 @@ label {
 
 .mainMenu {
   height: 0;
+  overflow: hidden;
 }
 
 .menuToggle {
-  height: 200px;
-  background: orange;
+  height: 250px;
 }
 
 header {
