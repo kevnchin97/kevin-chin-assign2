@@ -1,3 +1,5 @@
+
+// Accidentally pushed to main --> Created branch afterwards. 
 // psuedo code  
 // Attempting to create responsive NAV bar with JS. 
 // Will query the menu content elements as well as the button by storing them in variables.
